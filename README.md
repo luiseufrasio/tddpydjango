@@ -3,8 +3,11 @@ TDD with Python &amp; Django
 
 # initial setup
 $ sudo apt-get install python3.8
+
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
+
 $ pip install selenium
+
 $ sudo apt-get install firefox-geckodriver
 
 # test fail
