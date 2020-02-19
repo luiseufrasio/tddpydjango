@@ -1,1 +1,5 @@
+bin/*
+lib/*
+pyvenv.cfg
 geckodriver.log
+src/superquizzes/superquizzes/__pycache__/*
