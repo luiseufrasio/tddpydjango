@@ -13,7 +13,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 
         self.assertIn('Super Quizzes', self.browser.title)
-        self.fail('Finish the Test')
+        #self.fail('Finish the Test')
 
 if __name__ == '__main__':
     unittest.main()
