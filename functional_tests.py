@@ -38,7 +38,7 @@ class NewQuizzTest(unittest.TestCase):
         time.sleep(1)  
 
         table = self.browser.find_element_by_id('id_quizz_table')
-        caption = table.find_elements_by_tag_name('caption')  
+        caption = table.find_element_by_tag_name('caption')
         self.assertTrue(caption.text == 'Python Test 1')
         #self.fail('Finish the Test')
 
